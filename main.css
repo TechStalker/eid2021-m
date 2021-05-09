@@ -1,0 +1,169 @@
+body {
+	background-image: url('bg.jpg');
+	background-repeat: no-repeat;
+	background-size:cover;
+	font-family: 'Tajawal', sans-serif;
+	
+}
+body, html {
+  height: 100%;
+}
+.bg{
+	  /* The image used */
+  background-image: url("bg.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#b1{
+	background-color:white;
+	opacity:0.9;
+	width: 60%;
+	height:500px;
+	border-radius:20px;
+	position: relative;
+	top:100px;
+}
+h1{
+	text-align:center;
+	font-family: 'Tajawal', sans-serif;
+}
+#nf {
+	padding:20px;
+	align:center;
+	border-radius:5px;
+	width:250px;
+	position: absolute;
+	left:25%;
+	margin-top:50px;
+	margin-right:20px;
+}
+#btn{
+	padding:20px;
+	align:center;
+	border-radius:5px;
+	width:150px;
+	position: absolute;
+	left:60%;
+	margin-top:50px;
+	margin-right:20px;
+}
+#content , #contenth {
+	position:absolute;
+	width:80%;
+	left:10%
+	
+}
+#contenth {
+	text-align:left;
+	top:60%;
+	font-size:1.3em;
+	
+}
+#content{
+font-size:1.2em;
+text-decoration:bold;
+text-indent: 10px;
+top:68%;
+}
+
+
+
+
+
+/****************Bootstrap Media Queries*******************/
+
+
+
+@media(max-width: 575px) { 
+#btn{
+	padding:5px;
+	border-radius:5px;
+	width:80px;
+	position: absolute;
+	margin-left: auto;
+	margin-right:auto;
+	margin-top:80px;
+	clear:both;
+}
+#nf {
+	padding:10px;
+	align:center;
+	border-radius:5px;
+	width:150px;
+	position: absolute;
+	left:25%;
+	margin-top:50px;
+	margin-right:5px;
+	clear:both;
+	font-size:9px;
+}
+
+
+ 
+#b1{
+	 height:550px;
+	 
+ }
+#content , #contenth {
+	font-size:0.5em;
+
+}
+
+}
+@media (min-width: 576px) and (max-width: 767px) { 
+#btn{
+	padding:0px;
+	border-radius:5px;
+	width:50px;
+	position: absolute;
+	left:70%;
+	margin-top:50px;
+	margin-right:0px;
+	clear:both;
+}
+#nf {
+	padding:10px;
+	align:center;
+	border-radius:5px;
+	width:200px;
+	position: absolute;
+	left:10%;
+	margin-top:50px;
+	margin-right:15px;
+	clear:both;
+	font-size:9px;
+}
+
+
+ 
+#b1{
+	 height:800px;
+	 
+ }
+#content , #contenth {
+	font-size:0.8em;
+
+}
+}
+@media (min-width: 768px) and (max-width: 991px) { 
+
+#b1{
+	 height:500px;
+	 
+ }
+#content , #contenth {
+	
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
